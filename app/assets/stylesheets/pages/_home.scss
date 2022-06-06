@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+
+.img-vegeta img{
+  width: 45vh;
+}
+
+.text p{
+  width: 590px;
+}
+
+.split-picture-text{
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+}
