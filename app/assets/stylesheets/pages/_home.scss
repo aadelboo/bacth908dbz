@@ -1,13 +1,16 @@
-.img-vegeta img {
-  width: 45vh;
-}
 
-.text p {
-  width: 590px;
-}
+
+// .text p {
+//   width: 590px;
+// }
 
 .split-picture-text {
   display: flex !important;
   justify-content: space-around;
   align-items: center;
+}
+
+.character-home{
+  height: 80vh;
+  margin: 8px;
 }
