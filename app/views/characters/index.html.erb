@@ -1,0 +1,22 @@
+<% @characters.each do |character| %>
+  <ul>
+    <li>
+      <%= character.name %>
+    </li>
+    <li>
+      <%= character.power %>
+    </li>
+    <li>
+      <%= character.description %>
+    </li>
+    <li>
+      <%= character.sayan %>
+    </li>
+    <li>
+      <%= character.user.email %>
+    </li>
+    <li>
+      <%= character.character_picture %>
+    </li>
+  </ul>
+<% end  %>
